@@ -108,7 +108,7 @@ service:
   ## @param service.http.annotations HTTP service annotations
   ## @param service.http.labels HTTP service additional labels
   http:
-    type: ClusterIP
+    type: LoadBalancer
     port: 3000
     clusterIP: None
     loadBalancerIP:
